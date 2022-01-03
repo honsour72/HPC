@@ -117,7 +117,6 @@ _sym_db.RegisterMessage(Request)
 Response = _reflection.GeneratedProtocolMessageType('Response', (_message.Message,), {
     'DESCRIPTOR': _RESPONSE,
     '__module__': 'demo_pb2'
-    # @@protoc_insertion_point(class_scope:demo.Response)
 })
 _sym_db.RegisterMessage(Response)
 
@@ -171,5 +170,3 @@ _GRPCDEMO = _descriptor.ServiceDescriptor(
 _sym_db.RegisterServiceDescriptor(_GRPCDEMO)
 
 DESCRIPTOR.services_by_name['GRPCDemo'] = _GRPCDEMO
-
-# @@protoc_insertion_point(module_scope)
